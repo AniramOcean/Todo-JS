@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+
+
+<div class="main-content">
+    <div class="wrapper">
+        <div class="header-logo">
+            <img src="assets/images/logo_200x200.png" alt="Todo-logo">
+        </div>
+        <div class="todo">
+            <div class="todo__create-task">
+                <input id="todoInput" class="todo__input" type="text" placeholder="купить молоко">
+                <button id="addTodoBtn" class="btn btn-add" type="button">+</button>
+            </div>
+            <ul id="todoList" class="todo__list"></ul>
+        </div>
+    </div>
+
+    <footer class="footer__wrapper">
+        <div class="btn-container">
+            <button class="btn btn-l save-list">Save list</button>
+            <button class="btn btn-l clear-list">Clear list</button>
+        </div>
+    </footer>
+</div>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>

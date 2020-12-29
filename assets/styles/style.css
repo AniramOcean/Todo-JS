@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+}
+
+.main-content {
+  width: 500px;
+  margin: 20px auto;
+  height: 576px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background: wheat;
+}
+
+.header-logo {
+  text-align: center;
+}
+.header-logo img {
+  width: 180px;
+}
+
+.todo {
+  width: 450px;
+  max-height: 500px;
+}
+.todo__create-task {
+  display: flex;
+  justify-content: space-between;
+  background: burlywood;
+}
+.todo__input {
+  box-sizing: border-box;
+  margin: 0;
+  width: 400px;
+  height: 50px;
+  background: #dedcd8;
+  border: 1px solid #c1c1c1;
+  border-right: 0;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+}
+.todo__list {
+  box-sizing: border-box;
+  border: 1px saddlebrown solid;
+  list-style: none;
+  padding: 10px;
+  max-height: 260px;
+  min-height: 60px;
+  overflow-y: auto;
+}
+.todo__list-item {
+  max-width: 405px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.todo__list-item span {
+  max-width: 340px;
+}
+.todo__list-item--checked span {
+  text-decoration: line-through;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 500px;
+  background: #9c7563;
+  position: absolute;
+  bottom: 123px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.todo__list-item {
+  position: relative;
+}
+.todo__list-item .check, .todo__list-item .delete {
+  position: absolute;
+}
+.todo__list-item .check {
+  right: 28px;
+}
+.todo__list-item .delete {
+  right: 0;
+}
+
+.btn {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #c1c1c1;
+}
+.btn-ready, .btn-add {
+  background: lightgreen;
+}
+.btn-ready:hover, .btn-add:hover {
+  background: #43de3d;
+}
+.btn-ready:active, .btn-add:active {
+  background: #20b738;
+}
+.btn-delete {
+  background: rosybrown;
+}
+.btn-delete:hover {
+  background: #bc5847;
+}
+.btn-delete:active {
+  background: #bc212e;
+}
+.btn-sm {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  font-size: 10px;
+  border: 1px solid black;
+}
+.btn-l {
+  padding: 0;
+  width: 100px;
+  background: burlywood;
+  border: 1px solid #9c7563;
+}
+
+.save-list:hover, .clear-list:hover {
+  background: #ffd49c;
+}
+
+.save-list:active, .clear-list:active {
+  background: #ffe4bf;
+  color: #423127;
+}
+
+/*# sourceMappingURL=style.css.map */
